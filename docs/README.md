@@ -99,3 +99,9 @@ wasm-pack build --target bundler -- --features "browser strings"
 ## Donate Here
 If you found `wasm-flate` useful feel free to buy me a beer 🍺 or two 😀  
 `BTC - 3QVK6D5QCZDSyLzFL3ZbELokyuSprRQQZF`
+
+## How to export for explore
+```bash
+wasm-pack build -- --features "browser strings"
+npm publish --access public
+```
